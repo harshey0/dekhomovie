@@ -1,0 +1,11 @@
+.list-container{
+    margin-top: 2%;
+
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}

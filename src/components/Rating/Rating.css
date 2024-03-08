@@ -1,0 +1,9 @@
+.rating {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.fa-star {
+    color: gold;
+    margin-left: 3px;
+}

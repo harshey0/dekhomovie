@@ -1,0 +1,47 @@
+/* .sort-menu * {
+    font-size: large;
+} */
+
+.sort-menu {
+    width: 11%;
+    margin-right: 25px;
+    /* background-color: rgb(166, 161, 161); */
+}
+
+.menu-buttons{
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+    background-color: black;
+    padding: 20px;
+    border-color: transparent;
+}
+
+.menu-buttons button{
+    font-size: 1rem;
+}
+
+.list-container button{
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    /* pointer-events: none; */
+}
+
+.list-container button:hover{
+    background-color: rgba(113, 112, 112, 0.598);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#main-button {
+    display: flex;
+    font-size: 1.12rem;
+}
+ #main-button *{
+    margin-right: 10px;
+ }

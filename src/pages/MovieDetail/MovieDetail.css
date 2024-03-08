@@ -1,0 +1,149 @@
+.movie {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* background-color: darkgrey; */
+    align-items: center;
+}
+
+.movie-image {
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.backdrop-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.movie-details {
+    width: 70%;
+    position: relative;
+    display: flex;
+    bottom: 230px;
+    /* background-image: linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 0.863) 40%, rgb(0, 0, 0, 1)); */
+}
+
+.details-left {
+    /* background-color: green; */
+    width: 30%;
+
+}
+
+.details-right {
+    /* background-color: rgba(123, 138, 171, 0.452); */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-shadow: 1px 1px 10px black;
+    margin-left: 2%;
+}
+
+.details-right>div {
+    margin-bottom: 0.15rem;
+}
+
+.movie-poster img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+.detail-title {
+    margin-bottom: 0;
+}
+
+.detail-rating,
+.detail-genres {
+    display: flex;
+}
+
+.detail-num-votes {
+    margin-left: 20px;
+}
+
+.detail-overview {
+    margin-top: 0.5rem;
+    width: 100%;
+    /* background-color: rgba(123, 138, 171, 0.852); */
+}
+
+.genre {
+    margin-top: 0.5rem;
+    padding: .4rem;
+    padding-top: 0.2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 0.6rem;
+}
+
+
+
+.detail-heading {
+    font-size: 2.2rem;
+    font-family: poppins;
+}
+
+.newTab {
+    margin-left: 1.4rem;
+}
+
+.detail-production {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 4rem;
+}
+
+.detail-links {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+
+.movie__Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+}
+
+.movie__homeButton {
+    background-color: rgb(255, 0, 0);
+
+}
+
+.movie__imdbButton {
+    background-color: #f3ce13;
+}
+
+.movie__productionComapany {
+    width: 200px;
+    margin: 1.5rem;
+    background-color: white;
+    padding: 2rem;
+}
+
+.productionCompanyImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Prevent images from wrapping to the next line */
+    /* overflow: hidden; */
+}

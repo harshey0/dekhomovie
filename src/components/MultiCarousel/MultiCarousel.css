@@ -1,0 +1,16 @@
+h2 {
+    margin-top: 5rem;
+}
+
+.explore {
+    margin-left: 1%;
+    text-decoration: none;
+    transition: all 0.2s;
+    /* color: #2196f3; */
+    color: white;
+    font-size: smaller;
+}
+
+.explore:hover {
+    color: #f5cb5c;
+}

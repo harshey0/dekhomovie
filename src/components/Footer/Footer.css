@@ -1,0 +1,22 @@
+.page-footer {
+  color: grey;
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  width: 100%;
+  text-align: center;
+}
+
+.social {
+  color: grey;
+  /* background-color: gray; */
+  /* color: white; */
+  /* text-decoration: none; */
+  /* padding: .3rem; */
+  /* padding-top: 0.15rem; */
+  /* border-radius: 10px; */
+  margin-left: 1%;
+}
