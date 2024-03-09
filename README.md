@@ -72,3 +72,5 @@ Welcome to Dekho, your ultimate movie browsing companion. This React-based appli
 Contributions to Weather Explorer are welcome. If you have suggestions for improvements or would like to report issues, feel free to submit a pull request or open an issue on GitHub.
 
 **License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
