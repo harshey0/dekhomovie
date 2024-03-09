@@ -42,3 +42,33 @@ Welcome to Dekho, your ultimate movie browsing companion. This React-based appli
 - **API Integration**: Utilize third-party APIs to fetch movie data, ratings, and reviews from external sources.
 - **Responsive Design**: Implement CSS media queries and flexible layouts to ensure responsiveness across devices.
 - **Git/GitHub**: Version control system for tracking changes to the codebase and collaborating with other developers.
+
+  **Installation**
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/weather-explorer.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd weather-explorer
+   ```
+
+3. Install dependencies:
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+   ```
+   npm start
+   ```
+
+5. Open http://localhost:3000 in your web browser to access the Weather Explorer app.
+
+**Contributing**
+
+Contributions to Weather Explorer are welcome. If you have suggestions for improvements or would like to report issues, feel free to submit a pull request or open an issue on GitHub.
+
+**License**
